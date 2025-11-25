@@ -10,6 +10,9 @@ import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
 
+// ⭐ NEW: Import the AI Assistant Widget
+import ChatWidget from "./assistant/ChatWidget";
+
 export default function App() {
   return (
     <div className="overflow-hidden">
@@ -24,6 +27,11 @@ export default function App() {
       <FAQ />
       <CTA />
       <Footer />
+
+      {/* ⭐ NEW: Floating AI Assistant Widget */}
+      <ChatWidget />
     </div>
   );
 }
+
+      
